@@ -1,8 +1,28 @@
 # Celebrity Impersonator
+Choose from preselected celebrities or pick one of your own.
 ## Ask questions to your favorite celebrity
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ask any question you can think of. This application uses the GPT3 text-curie-001 completions AI to answer questions while posing as the selected celebrity
 
-## Recommended IDE Setup
+## Technologies
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- Uses Vite + Vue3 to create a SPA capable of delivering an enjoyable user experience.
+- GPT3 text-curie-001 completions is used for the AI
+
+## Getting Started
+
+- Download repo
+- Sign up for OpenAI beta to obtain API key
+- In the directory's root, create a .env file
+- In the .env file, add: VITE_OPENAI_SECRET=yourkeyhere
+- run ```npm install```, ```npm run dev```
+- Click the link and ask away!
+
+## Demo
+
+![](demo.gif)
+
+## Features
+
+- History is saved to local storage
+- Preset celebs and custom celeb entry

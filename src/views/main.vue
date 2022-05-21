@@ -61,7 +61,7 @@
                             :key="query.q"
                         >
                         <td>
-                            <input id="inp1"
+                            <input
                             type="text"
                             class="form-control-plaintext"
                             :value="query.c"
@@ -69,7 +69,7 @@
                           />
                         </td>
                          <td>
-                            <input id="inp2"
+                            <input
                             type="text"
                             class="form-control-plaintext"
                             :value="query.q"
@@ -77,7 +77,7 @@
                           />
                         </td>
                          <td>
-                            <input id="inp3"
+                            <input
                             type="text"
                             class="form-control-plaintext"
                             :value="query.a"
@@ -162,7 +162,6 @@ export default {
             .catch(error => {
                 console.error(error);
             })
-            console.clear()
         }
     }
 
@@ -191,7 +190,7 @@ export default {
      margin-left: 10%;
  }
 
- #inp1 #inp2 #inp3 {
+ input {
      text-align: center;
  }
 
